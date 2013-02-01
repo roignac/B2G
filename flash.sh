@@ -284,7 +284,7 @@ case "$DEVICE" in
 	flash_fastboot nounlock $PROJECT
 	;;
 
-"panda"|"maguro"|"m4"|"crespo"|"crespo4g"|"mako"|"flo")
+"panda"|"maguro"|"m4"|"crespo"|"crespo4g"|"mako"|"flo"|"u8815")
 	flash_fastboot unlock $PROJECT
 	;;
 
