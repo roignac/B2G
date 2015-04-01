@@ -166,7 +166,7 @@ case "$1" in
 	repo_sync $1
 	;;
 
-"flo")
+"flo"|"flo-kk")
 	echo DEVICE=flo >> .tmp-config &&
 	repo_sync $1
 	;;
